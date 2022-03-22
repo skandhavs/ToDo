@@ -1,5 +1,5 @@
 body{
-    background-image: url(tick-1.png);
+    background-image: url(..\fontsandcss\tick-1.png);
     background-color:white;
     background-size:40px;
     background-repeat:repeat-x repeat-y;  
@@ -86,7 +86,7 @@ font-weight: 500;
     text-decoration: line-through;
 }
 .dark-mode{
-    background-image: url(tick_2.png);
+    background-image: url(..\fontsandcss\tick_2.png);
     background-color: black;
     
     background-size:40px;
