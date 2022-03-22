@@ -1,0 +1,301 @@
+body{
+    background-image: url(tick-1.png);
+    background-color:white;
+    background-size:40px;
+    background-repeat:repeat-x repeat-y;  
+    font-family: 'Fredoka', sans-serif;  
+    
+}
+
+
+#createtask{
+    width:auto;
+    margin-left:12em;
+    margin-bottom: 2em;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    padding:7px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    font-weight:500;
+    position:absolute;
+    top: 147px;
+    
+    
+}
+textarea{
+    resize: none;
+}
+label {
+    vertical-align: middle;
+}
+.create-task-menu{
+    display:none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    width:fit-content;
+    padding:20px;
+    background-color: whitesmoke;
+    height: 260px;
+    justify-content: space-between;
+    margin-right: 0;
+    size: 326.45px 302px;
+    float: left;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    position:absolute;
+    top: 227px;
+
+}
+.float-right{
+    float: right;
+}
+p{
+    margin-block-start: 0%;
+}
+#add-task{
+    font-family: 'Fredoka', sans-serif;
+background-color:whitesmoke;
+border-style: solid;
+border-radius: 7px;
+border-color: gray;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-weight: 500;
+}
+ button:hover{
+    background-color: gray;
+
+}
+#add-task:hover{
+    background-color: gray;
+}
+.make-visible{
+    display:inline-flex;
+}
+.hidden{
+    display:none;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+.dark-mode{
+    background-image: url(tick_2.png);
+    background-color: black;
+    
+    background-size:40px;
+    background-repeat:repeat-x repeat-y;  
+    font-family: 'Fredoka', sans-serif;  
+    color:white;
+
+}
+.dark-mode ul{
+    color:white;
+    background-color:rgb(37, 35, 36);
+
+}
+.dark-mode h1{
+    background-color: black;
+}
+.dark-mode #createtask{
+    background-color: rgb(37, 35, 36);
+    color:white;
+}
+.dark-mode .create-task-menu{
+    background-color:rgb(37, 35, 36);
+}
+.dark-mode .todo:hover{
+    background-color: rgb(59, 58, 58);
+}
+.dark-mode .counterarea{
+    background-color: rgb(37, 35, 36);
+    color:white;
+}
+input{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+textarea{border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+
+}
+ul{
+    list-style: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 587.02px;
+padding: 6px;
+
+}
+.complete-btn ,.delete-btn{
+    float:right;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+}
+.todo-list{
+    margin-top: 0px;
+    border-radius: 8px;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 1em;
+    transition:all 0.5s ease;
+    border-color: gray;
+
+
+}
+.todo:hover{
+    background-color:gainsboro;
+}
+
+.todo li{
+    flex: 1;
+
+}
+.complete-btn:hover{
+    background-color: gray;
+}
+.delete-btn:hover{
+    background-color: gray;
+}
+#tasks{
+    background-color: none;
+    border-style: none;
+    float:left;
+    position:absolute;
+    left:460px;
+    top: 147px;
+    margin-left:2em;
+    margin-right:2em ;
+}
+
+.todoitem{
+    margin-right: 2em;
+}
+.counterarea{
+    font-size: 18px;
+    display:inline-flex;
+    position:absolute;
+    float :left;
+    left: 57.5em;
+    top: 147px;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-style:solid;
+    border-color: gray;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px ;
+    width:fit-content;
+    padding: 8px;
+    
+    
+
+}
+#modes{
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right:2px;
+    padding-bottom: 0px;
+    border:0;
+    background: white;
+    border: none;
+    height:35px;
+    background-size: cover;
+    position:absolute;
+    margin-top:1.5em;
+    margin-left: 5em;
+}
+.dark-mode #modes{
+    background: whitesmoke;
+    border-radius: 16px;
+    height:35px;
+}
+.fa-trash-can ,.fa-flag{
+    pointer-events: none;
+}
+#get-info{
+    
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+    background-color:whitesmoke;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: gray;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+#get-info:hover{
+    background-color: gray;
+    
+}
+.hidden2{
+    display:none;
+}
+.make-visible2{
+    display:block;
+}
+.main{
+    margin-left:5em;
+}
+#date-input{
+    margin-left: 1em;
+}
+#time-input{
+    margin-left: 1em;
+}
+#desc-input{
+    margin-bottom: 1em;
+}
+.in-text{
+    margin-bottom: 1em;
+}
+.centerdiv{
+    text-align: center;
+    padding-top: 6px;
+}
+
+.heading{
+    float:left;
+    position:absolute;
+    left:698px;
+    text-align: center;
+    width: fit-content;
+    margin-right: 0px;
+
+}
+h1{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 40px;
+    background-color: white;
+    margin-top: 12px;
+    
+
+    
+}
+h2{
+    text-align:center;}

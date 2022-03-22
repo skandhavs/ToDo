@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>icon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1cf37d1af3.js" crossorigin="anonymous"></script>
+<title>To Do</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"
+
+</head>
+<body>
+    <header>
+        <button class="lightmode " id="modes"><img src="hi2.png"  width="50px" ></button>
+        <div class="heading"><h1>To Do List</h1></div>
+        
+    </header>
+    
+    
+    <button id="createtask">Create Task</button><br>
+    
+    
+    
+        <div class="create-task-menu main">
+            <form>
+                <div class="in-text"><label>Title:</label><input id="title-input"class="float-right input " type="text" placeholder="Enter Title"></div>
+                <div class="in-text"><label id="desc">Description:</label><textarea id="desc-input"class="float-right input" placeholder="Description" cols="22" rows="10"></textarea></div>
+                <div><p class="float-right"><label>Deadline:</label><input id="date-input" class="float-right input"type="date"  min="2022-03-20" />
+                <input id="time-input" class="float-right input"type="time" ></p></div>
+                
+                <button type="submit"class="float-right " id="add-task">Add Task</button><br> 
+        </div>
+    </div>
+    
+    <div id="tasks" class="hidden2 main">
+        
+        <ul class="todo-list">
+            <h2>Your Tasks</h2>
+
+        </ul>
+            </div>
+            <div class="counterarea main">
+                <button id="get-info">Tasks Counter</button><div class="centerdiv">&nbsp;Completed/Total : </div>
+                <div class="centerdiv counterarea2">
+
+                </div>
+
+            </div>
+    
+            <script src="scripts.js"  defer></script> 
+</body>
+</html>
